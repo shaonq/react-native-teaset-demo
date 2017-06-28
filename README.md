@@ -1,5 +1,9 @@
 #### git
 ```
+# clone
+git clone -g  https://github.com/shaonq/react-native-teaset-demo.git
+
+# remote
 git init
 git remote add origin https://github.com/shaonq/react-native-teaset-demo.git
 ```
