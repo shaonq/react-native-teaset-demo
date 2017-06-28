@@ -41,7 +41,7 @@ export default class AboutPage extends NavigationPage {
         }, 500)
     }
     componentWillUnmount() {
-        clearInterval(this.interval)
+        this.interval&&clearInterval(this.interval)
     }
     renderPage() {
         return (
