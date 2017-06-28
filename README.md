@@ -29,3 +29,6 @@ componentWillUnmount() {
       this.interval&& clearInterval(this.interval)
     }
 ```
+
+#### download
+[notes.apk](notes.apk)
