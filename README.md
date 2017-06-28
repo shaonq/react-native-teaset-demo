@@ -23,7 +23,7 @@ git remote add origin https://github.com/shaonq/react-native-teaset-demo.git
 
 参考：[react-native-0.45-timers](http://reactnative.cn/docs/0.45/timers.html)
 
-结论(测试中):
+更改代码:
 ```
 componentWillUnmount() {
       this.interval&& clearInterval(this.interval)

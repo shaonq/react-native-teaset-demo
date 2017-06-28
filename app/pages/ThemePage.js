@@ -1,4 +1,3 @@
-// ThemeExample.js
 
 'use strict';
 
@@ -15,23 +14,11 @@ export default class ThemePage extends NavigationPage {
     showBackButton: true,
   };
 
-  changeTheme() {
-    PullPicker.show(
-      'Select theme',
-      Object.keys(Theme.themes),
-      -1,
-      (item, index) => {
-        Theme.set(Theme.themes[item]);
-        this.navigator.popToTop();
-      }
-    );
-  }
-
   renderPage() {
     return (
-        <ScrollView style={{flex: 1}}>
+        <View style={{flex: 1}}>
 
-        </ScrollView>
+        </View>
     );
   }
 

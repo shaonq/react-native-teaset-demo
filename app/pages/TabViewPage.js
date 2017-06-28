@@ -1,7 +1,4 @@
-/**
- * Created by wangmi on 2017/6/26.
- */
-// Home.js
+
 
 'use strict';
 
@@ -32,7 +29,7 @@ export default class TabViewPage extends BasePage {
                     // activeIcon={require('../icons/home_active.png')}
                 >
                     <View style={{flex: 1}}>
-                        <ListRow title='首页' detail='Home' onPress={() => this.navigator.push({view: <Home /> })} />
+                        <ListRow title='首页' detail='Home' onPress={() => this.navigator.popToTop()} />
                     </View>
                 </TabView.Sheet>
                 <TabView.Sheet

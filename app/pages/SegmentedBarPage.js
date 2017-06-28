@@ -1,7 +1,3 @@
-/**
- * Created by wangmi on 2017/6/26.
- */
-// Home.js
 
 'use strict';
 

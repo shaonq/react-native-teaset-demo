@@ -1,6 +1,3 @@
-/**
- * Created by wangmi on 2017/6/26.
- */
 
 'use strict';
 
@@ -20,7 +17,6 @@ export default class AboutPage extends NavigationPage {
 
     constructor(props) {
         super(props);
-        console.log(this.props);
 
         this._format = (time => {
             return time.toLocaleString()
@@ -29,8 +25,6 @@ export default class AboutPage extends NavigationPage {
         Object.assign(this.state, {
             timerCount: this._format(new Date())
         });
-
-        console.log(this.state);
     }
 
     componentDidMount() {
